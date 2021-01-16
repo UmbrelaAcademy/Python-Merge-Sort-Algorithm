@@ -1,6 +1,6 @@
 def Divide(arr):
     print("received->",(arr))
-    if(len(arr)==1):
+    if(len(arr)<=1):
         print("out->",(arr))
         return arr
     else:
